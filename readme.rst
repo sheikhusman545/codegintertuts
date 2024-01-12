@@ -9,3 +9,6 @@ image varchar
 sale_price float
 created_at
 category_id defaul null
+
+
+C:/XAMPP/HTDOCS/PROJECTS/ > GIT PULL ORIGIN MAIN 
