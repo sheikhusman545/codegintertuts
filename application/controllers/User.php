@@ -18,4 +18,31 @@ class User extends CI_Controller
         $data['page'] = 'user/index';
         $this->load->view('layouts/content', $data);
     }
+
+    public function add()
+    {
+    }
+
+    public function save()
+    {
+    }
+
+    public function delete()
+    {
+        $id =  $this->uri->segment(3);
+        $array = array(
+            'id' => $id
+        );
+        $this->db->delete('users', $array);
+        redirect('User/index');
+    }
+
+    public function edit()
+    {
+        echo $this->uri->segment(3);
+    }
+
+    public function update()
+    {
+    }
 }
