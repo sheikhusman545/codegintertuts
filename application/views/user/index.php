@@ -7,6 +7,7 @@
                 <th>name</th>
                 <th>email</th>
                 <th>Created</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -16,6 +17,10 @@
                     <th><?php echo $user->name ?></th>
                     <th><?php echo $user->email ?></th>
                     <th><?php echo date('M d,Y H:i', strtotime($user->created_at)); ?></th>
+                    <th>
+                        <a href="<?php echo base_url('user/delete/') . $user->id ?>"><i class="fa-solid fa-trash text-danger"></i></a>
+                        <a href="<?php echo base_url('user/edit/') . $user->id ?>"><i class="fa-regular fa-pen-to-square"></i></a>
+                    </th>
                 </tr>
             <?php endforeach  ?>
         </tbody>
