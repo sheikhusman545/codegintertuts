@@ -18,4 +18,5 @@ class User extends CI_Controller
         $data['page'] = 'user/index';
         $this->load->view('layouts/content', $data);
     }
+    
 }

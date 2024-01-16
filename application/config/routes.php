@@ -55,6 +55,7 @@ $route['contact'] = 'home/contactUs';
 $route['faq'] = 'home/faq';
 $route['page'] = 'page/index';
 $route['page1'] = 'page/page1';
+$route['product'] = 'product/index';
 
 
 $route['contact'] = 'welcome';

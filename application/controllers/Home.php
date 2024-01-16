@@ -12,7 +12,7 @@ class Home extends CI_Controller
 
     public function aboutUs()
     {
-        $data['name'] = "I m from home controller";
+        $data['name'] = "I m from AboutUs controller";
         $data['title'] = "I m title";
         $data['page'] = 'home/view';
         $this->load->view('layouts/content', $data);
@@ -20,14 +20,14 @@ class Home extends CI_Controller
 
     public function contactUs()
     {
-        $data['name'] = "I m from home controller";
+        $data['name'] = "I m from ContactUs controller";
         $data['title'] = "I m title";
         $this->load->view('home/view', $data);
     }
 
     public function faq()
     {
-        $data['name'] = "I m from home controller";
+        $data['name'] = "I m from Faq controller";
         $data['title'] = "I m title";
         $this->load->view('home/view', $data);
     }
