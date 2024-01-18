@@ -1,5 +1,6 @@
 <div class="container">
     <h1 class="bg-dark text-light p-4 m-4 text-center">Users</h1>
+    <a href="<?php echo base_url('User/create') ?>" class="btn btn-primary  m-4  ">Add User</a>
     <table class="table table-bordered table-striped p-4 m-4">
         <thead>
             <tr>
