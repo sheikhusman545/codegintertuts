@@ -109,7 +109,6 @@ class Product extends CI_Controller
 
     public function update()
     {
-
     }
 }
 // fiedl id , name , des, cat_id 
