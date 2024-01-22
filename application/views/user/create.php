@@ -1,6 +1,6 @@
 <div class="container">
   <div class="col-8 mx-auto my-5">
-    <h1 class="text-center">Create User</h1>
+    <h1 class="bg-dark text-light p-4 m-4 text-center">Create User</h1>
     <div class="text text-danger"><?php echo validation_errors() ?></div>
 
     <form action="<?php echo base_url('User/save') ?>" method="post">
